@@ -2,12 +2,13 @@
   "expo": {
     "name": "Fuel",
     "slug": "GoIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "goit",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +21,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.dzyadzomm.GoIT"
+      "package": "com.dzyadzo.fuelcalc"
     },
     "web": {
       "output": "static",

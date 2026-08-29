@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# FuelCalc 🚗⛽
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Калькулятор витрат на паливо**
 
-## Get started
+Забудьте про складні підрахунки на папері. **FuelCalc** — зручний інструмент для водіїв, який допомагає розрахувати вартість поїздки, вести журнал заправок і аналізувати динаміку цін на паливо.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Основні можливості
 
-2. Start the app
+### 🔢 Швидкий калькулятор
+- Введіть дистанцію, витрату палива та ціну за літр — і миттєво отримайте:
+  - Скільки літрів потрібно на поїздку
+  - Загальну вартість маршруту
+  - Вартість одного кілометра
+- Три режими розрахунку:
+  - За дистанцією
+  - За загальною вартістю
+  - Конвертер MPG ↔ л/100км
 
-   ```bash
-   npx expo start
-   ```
+### 📋 Журнал заправок
+- Фіксуйте кожну заправку:
+  - Дата, показник одометра, об'єм та ціна
+- Автоматичний розрахунок реальної витрати між заправками
+- Загальна сума витрат за місяць і відстань, яку ви проїхали
 
-In the output, you'll find options to open the app in a
+### 📊 Аналітика та статистика
+- Середня ціна за літр та середня витрата авто
+- Графік динаміки цін на паливо за останні 6 місяців
+- Загальні витрати за весь час використання
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### ⚙️ Гнучкі налаштування
+- Вибір валюти: ₴ / $ / €
+- Система одиниць: метрична (л/100км) або імперська (MPG)
+- Темна тема для комфортного використання вночі
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 👥 Для кого підходить FuelCalc
+✔ Щоденні поїздки на роботу  
+✔ Далекі подорожі та відрядження  
+✔ Водії таксі та кур'єри  
+✔ Усі, хто хоче контролювати витрати на авто  
 
-When you're ready, run:
+---
 
+## 📲 Встановлення
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/DzyadzoMM/FuelCalcApp.git
+cd FuelCalcApp
+npm install
+npm start
